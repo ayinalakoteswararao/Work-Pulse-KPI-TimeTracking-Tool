@@ -1,0 +1,14 @@
+/* 
+  This file contains Tailwind CSS directives.
+  These are processed by PostCSS during the build process.
+  The IDE warnings are false positives and don't affect functionality.
+*/
+
+/* Tailwind CSS Base Styles */
+@tailwind base;
+
+/* Tailwind CSS Components */
+@tailwind components;
+
+/* Tailwind CSS Utilities */
+@tailwind utilities;

@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <meta name="apple-mobile-web-app-title" content="Work Pulse" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="msapplication-tap-highlight" content="no" />
+    
+    <!-- iOS splash screens -->
+    <link rel="apple-touch-icon" href="/src/assets/Logo.png" />
+    <link rel="icon" type="image/png" href="/src/assets/Logo.png" sizes="512x512" />
+    
+    <title>Work Pulse</title>
+    <meta name="description" content="Work Pulse - Team Management Application" />
+    <meta name="author" content="Work Pulse Team" />
+
+    <!-- Open Graph tags -->
+    <meta property="og:title" content="Work Pulse" />
+    <meta property="og:description" content="Work Pulse - Team Management Application" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="/src/assets/Logo.png" />
+
+    <!-- Twitter Card tags -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@WorkPulse" />
+    <meta name="twitter:image" content="/src/assets/Logo.png" />
+    
+    <!-- iOS specific CSS -->
+    <style>
+      /* Prevent iOS zoom on input focus */
+      @supports (-webkit-touch-callout: none) {
+        input[type="text"],
+        input[type="email"],
+        input[type="password"],
+        input[type="number"],
+        input[type="tel"],
+        input[type="url"],
+        textarea,
+        select {
+          font-size: 16px !important;
+        }
+      }
+      
+      /* Responsive layout fix */
+      html, body {
+        height: 100%;
+        width: 100%;
+        overflow-x: hidden;
+      }
+      
+      #root {
+        min-height: 100vh;
+        width: 100%;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

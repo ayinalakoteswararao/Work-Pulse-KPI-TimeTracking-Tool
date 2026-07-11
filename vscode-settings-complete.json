@@ -1,0 +1,50 @@
+{
+  "css.validate": false,
+  "scss.validate": false,
+  "less.validate": false,
+  "stylelint.validate": [],
+  "tailwindCSS.includeLanguages": {
+    "css": "css",
+    "scss": "scss",
+    "html": "html",
+    "javascript": "javascript",
+    "typescript": "typescript",
+    "javascriptreact": "javascriptreact",
+    "typescriptreact": "typescriptreact"
+  },
+  "tailwindCSS.experimental.classRegex": [
+    ["clsx\\(([^)]*\\)", "(?:'|\"|`)([^']*)(?:'|\"|`)"],
+    ["cn\\(([^)]*\\)", "(?:'|\"|`)([^']*)(?:'|\"|`)"],
+    ["cva\\(([^)]*\\)", "[\"'`]([^\"'`]*).*?[\"'`]"]
+  ],
+  "tailwindCSS.classAttributes": ["class", "className"],
+  "tailwindCSS.experimental.configFile": "./tailwind.config.ts",
+  "tailwindCSS.emmetCompletions": true,
+  "tailwindCSS.hovers": true,
+  "tailwindCSS.suggestions": true,
+  "tailwindCSS.validate": true,
+  "editor.quickSuggestions": {
+    "strings": true,
+    "comments": true,
+    "other": true
+  },
+  "files.associations": {
+    "*.css": "tailwindcss",
+    "*.scss": "tailwindcss",
+    "*.postcss": "tailwindcss"
+  },
+  "emmet.includeLanguages": {
+    "css": "html",
+    "scss": "html",
+    "postcss": "html"
+  },
+  "css.lint.unknownAtRules": "ignore",
+  "css.lint.validProperties": [],
+  "stylelint.enable": false,
+  "stylelint.configFile": ".stylelintrc.json",
+  "typescript.preferences.quoteStyle": "single",
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  }
+}
